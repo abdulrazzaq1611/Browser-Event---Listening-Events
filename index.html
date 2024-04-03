@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+</head>
+<style>
+    #btn{
+        padding: 10px, 14px;
+        background-color: red;
+        color: white;
+        border: 1px solid gray;
+        cursor: pointer;
+        border-radius: 8px;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <h1>This is a heading</h1>
+        <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto suscipit esse perferendis expedita, labore dolores aliquam distinctio iste totam voluptas eveniet eum velit consequuntur debitis officia atque impedit possimus sapiente pariatur incidunt consequatur quisquam aspernatur voluptatibus. Nobis odio recusandae consequuntur vitae, beatae, suscipit, tenetur praesentium voluptatibus quisquam assumenda modi aperiam dolor. Perferendis, corrupti. Quae neque dolor temporibus dolorem omnis, minima ab libero, enim necessitatibus minus ipsam dolorum repudiandae, ipsum quam quo eius reiciendis repellendus ea praesentium asperiores eos voluptas. Illum accusantium quo nostrum provident perferendis delectus nisi quisquam, adipisci vel a ipsum dolor qui quos excepturi. Officia, voluptates itaque animi quod quia eveniet vel necessitatibus aperiam modi eum mollitia iste quasi error totam pariatur, cumque ipsam facere. Porro distinctio, velit sit asperiores possimus praesentium optio quo incidunt alias nostrum voluptate. Dignissimos, modi perferendis quia temporibus necessitatibus maiores beatae! Recusandae, sapiente fuga provident ratione in saepe illo velit consequuntur similique cumque, quaerat accusamus doloribus! Sequi porro quam ratione consectetur praesentium voluptatibus ab impedit maiores voluptate incidunt saepe quasi tenetur odio tempora ipsum eveniet harum dolorem similique error enim quidem ducimus aspernatur, recusandae beatae. Accusantium commodi quibusdam numquam, perferendis ab ipsum non. Sed in, culpa numquam eum aut reiciendis itaque commodi eveniet laborum rem recusandae doloribus unde hic dolore quam nostrum assumenda mollitia minus veritatis. Vel distinctio, rem consequuntur sed asperiores culpa dolor placeat blanditiis dolorum, quos nihil! Accusantium consequatur asperiores voluptates ex quod minima, adipisci laborum aliquid architecto laudantium tempore eligendi enim quidem ipsum nemo? At, ipsa ut deleniti aliquam est sequi officia. Optio, minus repellat. Deleniti, magni vero! Magnam sequi et dicta animi nihil! Assumenda blanditiis voluptas facere unde odit ipsa sint est recusandae modi magnam dolores vel rem animi perspiciatis voluptate, atque expedita doloremque non, dolorem earum ratione incidunt? Consequatur aliquid optio distinctio omnis quasi sit, maiores est impedit.</p>
+
+        <button id="btn" onclick="toogelHide()">Show/Hide</button>
+    </div>
+  
+    <script>
+        function toogelHide() {
+            
+        let btn =document.getElementById("btn");
+        let para =document.getElementById("para");
+        if(para.style.display  != 'none'){
+            para.style.display = 'none';
+        }
+        else{
+            para.style.display = 'block' ;     
+         }
+        }
+
+
+
+    </script>
+</body>
+</html>
